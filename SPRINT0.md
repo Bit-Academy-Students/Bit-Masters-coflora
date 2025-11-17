@@ -146,3 +146,16 @@ Een user story is *Done* als:
 - Link naar designs/wireframes: `<url>`  
 - Link naar product backlog: `<url>`  
 - Contactgegevens klant (adres/locatie): `<adres>`
+
+--- 
+
+## Vragen eerste gesprek
+
+Vragen Co-Flora:
+- Wat vindt u van de huidige homepagina? Straalt het uit waar uw bedrijf voor staat? Krijgt u het gevoel wat u erbij zou willen krijgen?
+- Wat is het gevoel dat u wilt meegeven?
+- Wat zijn de kernwaardes van uw bedrijf?
+- Kleuren: warm, of koud? Favoriete kleuren/kleuren die bij het bedrijf pasen?
+- Wat voor functionaliteit is er nodig voor de klant? (Naast het kunnen aanvragen van samples, en contact opnemen)
+- Wat voor functionaliteit is er nodig voor het bedrijf? (Bijvoorbeeld posten van showcases?)
+- Hebben jullie source materiaal wat we kunnen gebruiken? Foto's, video's, etc.
