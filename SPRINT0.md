@@ -1,9 +1,4 @@
-# Sprint 0 – Invulbaar Template (Markdown)
-
-> **Gebruik:** Dupliceer dit bestand voor je eigen project. Vervang alle `<>`-velden en vink de checkboxes aan.  
-> **Vaststaand (mag je overnemen):** sprints van 1 week, fysieke meetings in *Lokaal Mars (Bit Academy)*, stand-ups fysiek in het lokaal, communicatie via Mattermost, retro in sprint 2 & 4.  
-> **Tip:** Bewaar dit bestand in je repo als `SPRINT0.md`.
-
+# Sprint 0 – Co-Flora Project
 ---
 
 ## 📌 Project
@@ -17,7 +12,7 @@
 
 | Rol                       | Naam                 | E-mail                         | Telefoon     |
 | ------------------------- | -------------------- | ------------------------------ | ------------ |
-| **Product Owner (klant)** | `<Co-Flora>`       | `<dana@coflora.org>`        | `<06-xxxx>`   |
+| **Product Owner (klant)** | `Co-Flora`       | `dana@coflora.org`        | `<06-xxxx>`   |
 | **Scrum Coach**           | `Ties Noordhuis`   | `ties@bit-academy.nl`       | `06-29313578` |
 | **Developer 1**           | `Nour Yassine`     | `nour.saif.yassine@gmail.com` | `06-41253215`   |
 | **Developer 2**           | `Saad Bouchkarene` | `saadbch116@gmail.com` | `06-39184305`   |
