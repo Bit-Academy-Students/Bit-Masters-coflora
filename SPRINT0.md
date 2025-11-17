@@ -8,8 +8,8 @@
 
 ## 📌 Project
 
-- **Projectnaam:** `<Projectnaam>`  
-- **Korte omschrijving (1–2 zinnen):** `<Wat bouw je voor wie en waarom?>`
+- **Projectnaam:** `CoFlora website`  
+- **Korte omschrijving (1–2 zinnen):** `Wij bouwen een nieuwe website voor CoFlora omdat de huidige site aan vernieuwing toe is en functionaliteit mist.`
 
 ---
 
@@ -17,34 +17,32 @@
 
 | Rol                       | Naam                 | E-mail                         | Telefoon     |
 | ------------------------- | -------------------- | ------------------------------ | ------------ |
-| **Product Owner (klant)** | `<Naam organisatie>` | `<mail@klant.nl>`              | `<06-xxxx>`  |
-| **Scrum Coach**           | `Ties Noordhuis`     | `ties@bit-academy.nl`          | `06-29313578`|
-| **Developer 1**           | `<Naam>`             | `<voornaam.achternaam@...>`    | `<06-xxxx>`  |
-| **Developer 2**           | `<Naam>`             | `<voornaam.achternaam@...>`    | `<06-xxxx>`  |
-| **Developer 3**           | `nour.saif.yassine@gmail.com`             | `<nour.saif.yassine@gmail.com>`    | `<+31641253215>`  |
-
-> Voeg rijen toe of verwijder ze als je team groter/kleiner is.
+| **Product Owner (klant)** | `<Co-Flora>`       | `<dana@coflora.org>`        | `<06-xxxx>`   |
+| **Scrum Coach**           | `Ties Noordhuis`   | `ties@bit-academy.nl`       | `06-29313578` |
+| **Developer 1**           | `Nour Yassine`     | `nour.saif.yassine@gmail.com` | `06-41253215`   |
+| **Developer 2**           | `Saad Bouchkarene` | `saadbch116@gmail.com` | `06-39184305`   |
+| **Developer 3**           | `Milo van Dam`     | `milod1611@gmail.com` | `06-23645298`   |
+| **Developer 4**           | `Doncan Dayan`     | `don@doncancode.com`        | `06-28544297` |
 
 ---
 
 ## 🎯 Wat
 
 ### Doel van het project
-`<Beschrijf in 1–2 zinnen het doel voor de klant/gebruiker (waarde, probleem dat je oplost).>`
+`CoFlora wil een professionelere website die duidelijk het onderscheid laat zien tussen bouwmaterialen en designproducten, en daarnaast een eenvoudige manier biedt voor klanten om online samples aan te vragen. De site moet technisch strak worden gebouwd zonder WordPress, met aandacht voor prestaties en een heldere structuur.`
 
 ### Eisen en wensen
 
 **Eisen (Must-haves):**
-- [ ] `<Eis 1>`
-- [ ] `<Eis 2>`
-- [ ] `<Eis 3>`
+- [ ] `Geoptimaliseerde website`
+- [ ] `Professionele uitstraling`
+- [ ] `Aanvraag van samples`
 - [ ] **Responsief** (mobiel & desktop)
 
 **Wensen (Nice-to-haves):**
 - [ ] `<Wens 1>`
 - [ ] `<Wens 2>`
 
-> Voeg waar nodig extra bullets toe.
 
 ---
 
@@ -54,8 +52,8 @@
 > **Minimaal 5 stories.** Zet elke story in de juiste MoSCoW-categorie.
 
 ### ✅ Must have (M)
-- [ ] `<Story M1>`  
-- [ ] `<Story M2>`
+- [ ] `Als klant wil ik eenvoudig samples kunnen bestellen`  
+- [ ] `Als klant wil ik een overzichtelijke en professionele website zien`
 
 ### 🟠 Should have (S)
 - [ ] `<Story S1>`  
