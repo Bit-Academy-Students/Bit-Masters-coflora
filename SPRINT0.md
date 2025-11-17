@@ -94,8 +94,8 @@
 - **Minimale aanwezigheid:** **di, wo, do** voor alle teamleden
 - Overzicht per persoon:
   - `<Naam 1>`: `<dagen/tijden>`
-  - `<Naam 2>`: `<dagen/tijden>`
-  - `<Nour>`: `<Ma, Di, Wo, Do/9:30 - 16:00>`
+  - `Don`: `Ma - Do 9:00/9:30 - 15:00/15:30`
+  - `Nour`: `Ma, Di, Wo, Do/9:30 - 16:00`
 
 **Afwezigheid & afspraken**
 - [ ] Ziek/afwezig vóór **08:30** melden via **Mattermost**
