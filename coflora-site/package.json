@@ -14,12 +14,7 @@
     "@emotion/styled": "^11.14.1",
     "@mui/material": "^7.3.5",
     "@tailwindcss/vite": "^4.1.17",
-<<<<<<< HEAD
-    "install": "^0.13.0",
-    "npm": "^11.6.2",
-=======
     "marquee3000": "^1.1.1",
->>>>>>> c2807fe7a515b00e6b4ddfd76a1fe39de14846a4
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-router-dom": "^7.9.6",
