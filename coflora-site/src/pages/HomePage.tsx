@@ -1,27 +1,11 @@
-import { Link } from "react-router-dom";
+import Footer from '../components/Footer.tsx';
 
-function NavBar() {
+function HomePage() {
     return (
-        <nav className="navbar">
-            <ul className="nav-links">
-                <li>
-                    <Link to="https://coflora.org/" className="nav-link-item">Home</Link>
-                </li>
-                <li>
-                    <Link to="/about" className="nav-link-item">Products</Link>
-                </li>
-                <li>
-                    <Link to="/contact" className="nav-link-item">Catalogs</Link>
-                </li>
-                 <li>
-                    <Link to="/contact" className="nav-link-item">Showcase</Link>
-                </li>
-                 <li>
-                    <Link to="/contact" className="nav-link-item">Contact</Link>
-                </li>
-            </ul>
-        </nav>
-    );
+        <>
+            <Footer></Footer>
+        </>
+    )
 }
 
-export default NavBar;
+export default HomePage;
