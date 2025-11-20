@@ -10,7 +10,7 @@ function App() {
                 <Route path="/about"></Route>
                 <Route path="/contact"></Route>
                 <Route path="/samples"></Route>
-                <Route path="*"><h1>404 Not Found</h1></Route>
+                <Route path="*" element={<h1>404 Not Found</h1>}></Route>
             </Routes>
         </Router>
     );
