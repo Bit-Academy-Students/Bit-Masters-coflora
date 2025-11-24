@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+.marquee-inner {
+  white-space: nowrap;
+}
+
+#marquee {
+  animation: scroll linear infinite;
+}
+
+@keyframes scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+.card-bg {
+      background: linear-gradient(135deg, #f8f9fa 60%, #e1dbf1 100%);
+
+}
