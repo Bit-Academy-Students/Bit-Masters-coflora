@@ -5,3 +5,5 @@ export { default as img3 } from "./img2.webp";
 export { default as img4 } from "./img3.webp";
 export { default as builder } from "./builder.webp";
 export { default as designer } from "./designer.webp";
+export { default as kurk } from "./kurk.webp";
+export { default as kurk1 } from "./kurk0.webp";

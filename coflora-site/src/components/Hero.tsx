@@ -4,7 +4,7 @@ import { Autoplay, Mousewheel, Pagination } from "swiper/modules";
 import { img, img1, img2, img3, img4 } from "../assets/images";
 import Marquee3k from "marquee3000";
 import { useEffect } from "react";
-import logo from "../assets/logos/logo.png";
+import logowhite from "../assets/logos/logo-white.webp";
 
 function Hero() {
     useEffect(() => {
@@ -13,14 +13,14 @@ function Hero() {
 
     return (
         <>
-            <div className="relative w-full h-full">
+            <div className="relative w-full h-[35vh] xl:h-[45vh]">
                 <div className="z-10 absolute inset-0 flex flex-col justify-center items-center bg-black/30 pointer-events-none">
                     <img
-                        src={logo}
+                        src={logowhite}
                         alt="Logo"
                         className="drop-shadow-lg mb-6 w-64"
                     />
-                    <h1 className="drop-shadow-lg w-180 font-bold text-white text-4xl md:text-6xl text-center">
+                    <h1 className="hidden lg:d-block drop-shadow-lg w-180 font-bold text-white text-4xl md:text-6xl text-center">
                         We provide sustainable creative solutions
                     </h1>
                 </div>
@@ -37,7 +37,7 @@ function Hero() {
                         disableOnInteraction: false,
                     }}
                     modules={[Autoplay, Mousewheel, Pagination]}
-                    className="z-0 w-full h-140 mySwiper"
+                    className="z-0 w-full h-full mySwiper"
                 >
                     <SwiperSlide>
                         <img

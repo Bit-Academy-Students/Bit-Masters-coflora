@@ -1,15 +1,22 @@
 import Marquee3k from "marquee3000";
 import { useEffect } from "react";
+import { kurk1 } from "../assets/images";
 
 function Banner() {
     useEffect(() => {
         Marquee3k.init();
     }, []);
 
+    // bg-rose-500/60
+    // bg-fuchsia-500/60
+    // bg-blue-500/60
+    // bg-emerald-500/60
+
     return (
         <div
-            className="bg-gradient-to-r from-orange-200 via-yellow-200 to-red-200 shadow-xl mt-20 rounded-xl w-full h-18 overflow-hidden marquee3k"
+            className="bg-banner bg-blend-multiply bg-rose-200/50 bg-repeat shadow-xl mt-12 w-full h-18 overflow-hidden text-white marquee3k"
             data-speed="0.75"
+            style={{ backgroundImage: `url(${kurk1})` }}
         >
             <div className="inline-flex h-18 marquee3k__copy">
                 <div className="flex text-brown-200">

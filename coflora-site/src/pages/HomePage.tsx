@@ -6,19 +6,21 @@ import { HomePageBuilderText, HomePageDesignerText } from "../constant";
 
 function HomePage() {
     return (
-        <div className="w-full h-full">
+        <div className="flex flex-col w-full h-full">
             <Hero />
-            <HomePageCard
-                name={"Builders"}
-                img={builder}
-                text={HomePageBuilderText}
-            />
+            <div className="flex flex-row items-stretch gap-12 grid grid-cols-1 lg:grid-cols-2 px-12">
+                <HomePageCard
+                    name={"Contractors"}
+                    img={builder}
+                    text={HomePageBuilderText}
+                />
+                <HomePageCard
+                    name={"Designers"}
+                    img={designer}
+                    text={HomePageDesignerText}
+                />
+            </div>
             <Banner />
-            <HomePageCard
-                name={"Designers"}
-                img={designer}
-                text={HomePageDesignerText}
-            />
         </div>
     );
 }
