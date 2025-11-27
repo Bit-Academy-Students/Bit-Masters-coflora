@@ -11,9 +11,10 @@ import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import logo from "../assets/logos/logo.png";
+import { Link } from "react-router-dom";
 // import MenuIcon from "@mui/icons-material/Menu";
 
-const pages = ["Products", "Pricing", "Blog"];
+const pages = ["Products", "Pricing", "Blog", "Contact"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 function Header() {
@@ -119,7 +120,7 @@ function Header() {
                                 onClick={handleCloseNavMenu}
                                 sx={{ my: 2, color: "black", display: "block" }}
                             >
-                                {page}
+                                <Link to={`/${page.toLowerCase()}`}>{page}</Link>
                             </Button>
                         ))}
                     </Box>
