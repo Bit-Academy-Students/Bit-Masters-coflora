@@ -2,7 +2,7 @@
   "name": "coflora-site",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://bit-academy-students.github.io/Bit-Masters-coflora/coflora-site/",
+  "homepage": "https://bit-academy-students.github.io/Bit-Masters-coflora/",
   "type": "module",
   "scripts": {
     "deploy": "gh-pages -d dist",
