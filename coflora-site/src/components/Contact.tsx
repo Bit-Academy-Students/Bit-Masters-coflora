@@ -1,8 +1,8 @@
 const Contact = () => {
     return (
-        <div className="max-w-xl mx-auto mt-10 mb-10 p-8 bg-white rounded-xl w-screen">
+        <div className="mx-auto mt-10 mb-10 p-8 bg-white rounded-xl w-screen">
 
-            <main className="flex w-full flex-wrap min-[426px]:flex-nowrap gap-20 justify-between items-center">
+            <main className="flex w-full flex-wrap min-[426px]:flex-nowrap gap-20 min-[769px]:gap-40 justify-center items-center">
                 <div className="justify-self-center">
                     <img src="/phone.jpg" className="w-[350px]" alt="Phone Icon" />
                 </div>
