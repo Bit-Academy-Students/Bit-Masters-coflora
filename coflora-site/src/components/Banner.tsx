@@ -8,7 +8,7 @@ function Banner() {
 
     return (
         <div
-            className="bg-gradient-to-r from-orange-200 via-yellow-200 to-red-200 shadow-xl mt-20 rounded-xl w-full h-18 overflow-hidden marquee3k"
+            className="bg-linear-to-r from-orange-200 via-yellow-200 to-red-200 shadow-xl mt-20 rounded-xl w-full h-18 overflow-hidden marquee3k"
             data-speed="0.75"
         >
             <div className="inline-flex h-18 marquee3k__copy">
