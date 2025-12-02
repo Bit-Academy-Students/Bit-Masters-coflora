@@ -8,4 +8,4 @@
 
 - Linking 2 domains to 1 website.
 - Taking coordinates to check if the coordinates match the coordinates span of the nl.
-- Validating where the user is.
+- Validating in which country the user is in.
