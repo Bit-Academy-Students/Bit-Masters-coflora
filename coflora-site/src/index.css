@@ -45,6 +45,7 @@
 @layer base {
   body {
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
   }
 }
 
@@ -60,10 +61,23 @@
   }
 }
 
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
 .card-bg {
     background: linear-gradient(to bottom, #E8DCC9C4, #f1f1f1);
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.card-bg:hover {
+    background: linear-gradient(to bottom, #F0E1D1, #f8f8f8);
 }
 
 .card-border {
-      border: 2px #ccc solid;
+    border: 2px #ccc solid;
 }

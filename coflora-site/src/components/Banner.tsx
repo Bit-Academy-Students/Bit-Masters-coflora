@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { kurk1 } from "../assets/images";
 import { FEATURES } from "../constants";
 import type { BannerProps } from "../types";
+import { scrollToElement } from "../utilities";
 
 function Banner({ reverse }: BannerProps) {
     useEffect(() => {
@@ -18,8 +19,12 @@ function Banner({ reverse }: BannerProps) {
         >
             <div className="inline-flex h-18 marquee3k__copy">
                 <div className="flex text-brown-200">
-                    {FEATURES.map(({ Icon, title }) => (
-                        <div className="flex justify-center items-center mx-10 h-18 font-semibold text-3xl text-center hover:scale-105 transition-transform">
+                    {FEATURES.map(({ Icon, title }, index) => (
+                        <div
+                            key={index}
+                            onClick={() => scrollToElement("featuresSection")}
+                            className="flex justify-center items-center mx-10 h-18 font-semibold text-3xl text-center hover:scale-105 transition-transform"
+                        >
                             <Icon size={32} classes="mr-2" />
                             {title}
                         </div>
