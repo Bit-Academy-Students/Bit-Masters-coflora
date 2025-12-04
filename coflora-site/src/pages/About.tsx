@@ -1,14 +1,14 @@
-// import Header from "../components/Header";
+import Header from "../components/Header";
 import { img2 } from "../assets/images";
 import { img3 } from "../assets/images";
 // import woodenBg from '/wooden-background.jpg';
 
 export default function About() {
     return (
-        <section className={`w-screen overflow-x-hidden h-screen object-left object-cover text-white`} style={{ background: "url(wood.jpg)" }}>
-            {/* <Header></Header> */}
+        <section className={`w-screen overflow-x-hidden h-screen object-left object-cover text-black`}>
+            <Header></Header>
             <div className="relative flex w-full flex-wrap">
-                <div className="flex flex-wrap w-screen absolute justify-center gap-10 p-10">
+                <div className="flex flex-wrap absolute w-[50vw] justify-center gap-10 p-10">
                     <div className="flex flex-col gap-7">
                         <h2 className="text-2xl">Who and Why</h2>
                         <p>WHO?
@@ -26,6 +26,7 @@ export default function About() {
                         <img src={img3} className="w-[50px] h-[50px]" style={{ clipPath: "circle()" }} alt="" />
                     </div>
                 </div>
+
             </div>
         </section>
     )
