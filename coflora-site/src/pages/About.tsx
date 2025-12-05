@@ -26,7 +26,6 @@ export default function About() {
                         <img src={img3} className="w-[50px] h-[50px]" style={{ clipPath: "circle()" }} alt="" />
                     </div>
                 </div>
-
             </div>
         </section>
     )
