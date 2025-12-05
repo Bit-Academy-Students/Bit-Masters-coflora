@@ -1,5 +1,5 @@
 import Header from "../components/Header";
-import { img2 } from "../assets/images";
+import { img4 } from "../assets/images";
 import { img3 } from "../assets/images";
 // import woodenBg from '/wooden-background.jpg';
 
@@ -20,9 +20,9 @@ export default function About() {
                         </p>
                     </div>
                     <div className="rounded-full flex flex-wrap">
-                        <img src="/wood.jpg" className="w-[100px] h-[100px]" style={{ clipPath: "circle()" }} alt="wood" />
-                        <img src="/phone.jpg" className="w-[200px] h-[200px]" style={{ clipPath: "circle()" }} alt="phone" />
-                        <img src={img2} className="w-[150px] h-[150px]" style={{ clipPath: "circle()" }} alt="phone" />
+                        <img src="/wood.webp" className="w-[100px] h-[100px]" style={{ clipPath: "circle()" }} alt="wood" />
+                        <img src="/wall.webp" className="w-[200px] h-[200px]" style={{ clipPath: "circle()" }} alt="phone" />
+                        <img src={img4} className="w-[150px] h-[150px]" style={{ clipPath: "circle()" }} alt="phone" />
                         <img src={img3} className="w-[50px] h-[50px]" style={{ clipPath: "circle()" }} alt="" />
                     </div>
                 </div>

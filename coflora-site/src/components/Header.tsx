@@ -48,8 +48,8 @@ function Header() {
                     <BurgerIcon isOpen={isOpen} onClick={toggleMenu} />
                 </div>
 
-                <div className="flex-grow flex justify-center md:justify-start order-2 md:order-1">
-                    <Link to="/" className="flex-shrink-0">
+                <div className="grow flex justify-center md:justify-start order-2 md:order-1">
+                    <Link to="/" className="shrink-0">
                         <img className="w-32 md:w-40" src="/logo.png" alt="CoFlora Logo" />
                     </Link>
                 </div>
