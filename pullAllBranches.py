@@ -15,7 +15,7 @@ def pull_all_branches():
                 target = target.replace("  ", "")
                 if "origin" not in target and "remotes" not in target and "* main" not in target:
                     print(target)
-                    os.system(f"git pull origin {target}")
+                    os.system(f"git checkout {target}")
 
         print("All branches have been pulled successfully.")
     except subprocess.CalledProcessError as e:
