@@ -58,7 +58,7 @@ const Certificate: React.FC = () => {
 
 
     return (
-        <div className="bg-[url('./assets/images/img.webp')] max-w-6xl mx-auto p-10 bg-stone-100 rounded-2xl shadow-lg border border-stone-300">
+        <div className="bg-[url('./assets/images/img.webp')]  max-w-6xl mx-auto p-10 bg-stone-100 rounded-2xl shadow-lg border border-stone-300">
 
             <div className="text-center mb-12">
                 <svg className="w-12 h-12 text-yellow-800 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
