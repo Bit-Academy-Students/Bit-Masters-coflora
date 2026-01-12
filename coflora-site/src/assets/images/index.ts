@@ -1,7 +1,0 @@
-export { default as img } from "./img0.webp";
-export { default as img1 } from "./img.webp";
-export { default as img2 } from "./img1.webp";
-export { default as img3 } from "./img2.webp";
-export { default as img4 } from "./img3.webp";
-export { default as builder } from "./builder.webp";
-export { default as designer } from "./designer.webp";
