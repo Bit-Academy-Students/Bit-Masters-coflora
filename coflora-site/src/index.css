@@ -1,1 +1,83 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./assets/fonts/RobotoCondensed.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/fonts/Montserrat.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SourceSans';
+  src: url('./assets/fonts/SourceSans.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'WorkSans';
+  src: url('./assets/fonts/WorkSans.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'PPNeueMontreal';
+  src: url('./assets/fonts/ppneuemontreal-thin.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PPNeueMontreal';
+  src: url('./assets/fonts/ppneuemontreal-medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PPNeueMontreal';
+  src: url('./assets/fonts/ppneuemontreal-bold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@layer base {
+  body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+@layer utilities {
+  .font-headers {
+    font-family: 'Montserrat', sans-serif;
+  }
+  .font-buttons {
+    font-family: 'SourceSans', sans-serif;
+  }
+  .font-montreal {
+    font-family: 'WorkSans', sans-serif;
+  }
+}
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+.card-bg {
+    background: linear-gradient(to bottom, #E8DCC9C4, #f1f1f1);
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.card-bg:hover {
+    background: linear-gradient(to bottom, #F0E1D1, #f8f8f8);
+}
+
+.card-border {
+    border: 2px #ccc solid;
+}
