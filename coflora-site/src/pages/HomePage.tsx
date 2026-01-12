@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Banner from "../components/Banner";
 import Hero from "../components/Hero";
 import HomePageCard from "../components/HomePageCard";
@@ -21,6 +22,16 @@ function HomePage() {
             />
         </div>
     );
+=======
+import Footer from '../components/Footer.tsx';
+
+function HomePage() {
+    return (
+        <>
+            <Footer></Footer>
+        </>
+    )
+>>>>>>> ce32a2daa411a347224ac0761d2abcb2a6201d1e
 }
 
 export default HomePage;

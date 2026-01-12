@@ -7,7 +7,7 @@
   "scripts": {
     "deploy": "gh-pages -d dist",
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build --base=/Bit-Masters-coflora/",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -20,7 +20,6 @@
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-router-dom": "^7.9.6",
-    "swiper": "^12.0.3",
     "tailwindcss": "^4.1.17"
   },
   "devDependencies": {
