@@ -1,14 +1,14 @@
-<<<<<<< HEAD
-import Banner from "../components/Banner";
-import Hero from "../components/Hero";
-import HomePageCard from "../components/HomePageCard";
-import { builder, designer } from "../assets/images";
-import { HomePageBuilderText, HomePageDesignerText } from "../constant";
+// import Banner from "../components/Banner.tsx";
+// import Hero from "../components/Hero.tsx";
+// import HomePageCard from "../components/HomePageCard";
+// import { builder, designer } from "../assets/images";
+// import { HomePageBuilderText, HomePageDesignerText } from "../constant";
+import Footer from "../components/Footer";
 
 function HomePage() {
     return (
         <div className="w-full h-full">
-            <Hero />
+            {/* <Hero />
             <HomePageCard
                 name={"Builders"}
                 img={builder}
@@ -18,20 +18,11 @@ function HomePage() {
             <HomePageCard
                 name={"Designers"}
                 img={designer}
-                text={HomePageDesignerText}
-            />
-        </div>
-    );
-=======
-import Footer from '../components/Footer.tsx';
-
-function HomePage() {
-    return (
-        <>
+                text={HomePageDesignerText} */}
+            {/* /> */}
             <Footer></Footer>
-        </>
+        </div>
     )
->>>>>>> ce32a2daa411a347224ac0761d2abcb2a6201d1e
 }
 
 export default HomePage;
