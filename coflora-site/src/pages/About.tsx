@@ -10,7 +10,7 @@ export default function About() {
             <section className={`w-screen overflow-x-hidden h-screen object-left object-cover text-black`}>
                 <Header></Header>
                 <div className="relative flex w-full flex-wrap">
-                    <div className="flex flex-wrap absolute w-[50vw] justify-center gap-10 p-10">
+                    <div className="flex flex-wrap absolute w-screen justify-center gap-10 p-10">
                         <div className="flex flex-col gap-7">
                             <h2 className="text-2xl">Who and Why</h2>
                             <p>WHO?
