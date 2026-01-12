@@ -4,12 +4,10 @@ import HomePage from "./pages/HomePage";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import SamplesPage from "./pages/Samples";
-import Header from "./components/Header";
 
 function App() {
     return (
         <Router>
-            <Header></Header>
             <Routes>
                 <Route path="/" element={<HomePage></HomePage>}></Route>
                 <Route path="/about" element={<About></About>}></Route>
