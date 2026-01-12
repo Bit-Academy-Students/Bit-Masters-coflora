@@ -8,7 +8,7 @@ import { HomePageBuilderText, HomePageDesignerText } from "../constants";
 import Features from "../components/Features";
 
 function HomePage() {
-    return (
+        return (
         <div className="flex flex-col w-full h-full">
             <Carousel />
             <Banner />
@@ -17,7 +17,7 @@ function HomePage() {
 
             <div
                 id="CustomerCards"
-                className="flex flex-row items-stretch gap-12 grid grid-cols-1 lg:grid-cols-3 px-12"
+                className="flex flex-row items-stretch gap-12 grid-cols-1 lg:grid-cols-3 px-12"
             >
                 <HomePageCard
                     name={"Contractors"}
