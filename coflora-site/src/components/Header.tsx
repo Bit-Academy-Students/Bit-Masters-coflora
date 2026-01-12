@@ -79,7 +79,7 @@ function Header() {
             </nav>
 
             <div
-                className={`fixed sticky top-0 left-0 w-full h-full bg-gray-50 transition-transform duration-500 ease-in-out z-30 ${isOpen ? 'translate-x-0' : 'translate-x-full'
+                className={`sticky top-0 left-0 w-full h-full bg-gray-50 transition-transform duration-500 ease-in-out z-30 ${isOpen ? 'translate-x-0' : 'translate-x-full'
                     } md:hidden`}
             >
                 <div className="flex flex-col  items-center pt-24 space-y-8 h-full pb-10 overflow-y-auto">
