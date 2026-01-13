@@ -1,7 +1,6 @@
-import "swiper/css/bundle";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
-import { img, img1, img2, img3, img4 } from "../assets/images";
+import { img, img1, img2, img3 } from "../assets/images";
 import { scrollToElement } from "../utilities";
 
 function Carousel() {
@@ -17,7 +16,7 @@ function Carousel() {
                             </h1>
                             <button
                                 onClick={() => scrollToElement("CustomerCards")}
-                                className="group inline-flex z-50 relative justify-center items-center bg-neutral-100 mt-4 mr-12 py-1 pr-14 pl-6 rounded-full w-50 h-[calc(48px+8px)] font-medium hover:cursor-pointer pointer-events-auto"
+                                className="group inline-flex z-50 relative justify-center items-center bg-neutral-100 mt-4 mr-12 py-1 pr-14 pl-6 rounded-full w-50 h-14 font-medium hover:cursor-pointer pointer-events-auto"
                             >
                                 <span className="z-20 pr-2">
                                     Explore solutions
@@ -77,12 +76,6 @@ function Carousel() {
                     <SwiperSlide>
                         <img
                             src={img3}
-                            className="w-full h-full object-cover"
-                        ></img>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <img
-                            src={img4}
                             className="w-full h-full object-cover"
                         ></img>
                     </SwiperSlide>
