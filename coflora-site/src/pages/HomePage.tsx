@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Banner from "../components/Banner";
 import Carousel from "../components/Carousel";
 import HomePageCard from "../components/HomePageCard";
@@ -6,9 +7,18 @@ import CallToArms from "../components/CTA";
 import { builder, designer, people } from "../assets/images";
 import { HomePageBuilderText, HomePageDesignerText } from "../constants";
 import Features from "../components/Features";
+=======
+// import Banner from "../components/Banner";
+// import Hero from "../components/Hero";
+// import HomePageCard from "../components/HomePageCard";
+import Footer from "../components/Footer";
+// import { builder, designer } from "../assets/images";
+// import { HomePageBuilderText, HomePageDesignerText } from "../constant";
+>>>>>>> About
 
-function HomePage() {
+export default function HomePage() {
     return (
+<<<<<<< HEAD
         <div className="flex flex-col w-full h-full">
             <Carousel />
             <Banner />
@@ -37,8 +47,22 @@ function HomePage() {
             </div>
             <Features />
             <CallToArms />
+=======
+        <div className="w-full h-full">
+            {/* <Hero />
+            <HomePageCard
+                name={"Builders"}
+                img={builder}
+                text={HomePageBuilderText}
+            />
+            <Banner />
+            <HomePageCard
+                name={"Designers"}
+                img={designer}
+                text={HomePageDesignerText}
+            /> */}
+            <Footer></Footer>
+>>>>>>> About
         </div>
     );
 }
-
-export default HomePage;

@@ -1,4 +1,5 @@
 @import "tailwindcss";
+<<<<<<< HEAD
 
 @font-face {
   font-family: 'Roboto';
@@ -81,3 +82,5 @@
 .card-border {
     border: 2px #ccc solid;
 }
+=======
+>>>>>>> About
