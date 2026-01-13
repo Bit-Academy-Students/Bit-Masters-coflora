@@ -1,8 +1,7 @@
 import Header from "../components/Header";
-import { img2 } from "../assets/images";
-import { img3 } from "../assets/images";
+import { img2 } from "../assets/images/index";
+import { img3 } from "../assets/images/index";
 import Footer from "../components/Footer";
-// import woodenBg from '/wooden-background.jpg';
 
 export default function About() {
     return (

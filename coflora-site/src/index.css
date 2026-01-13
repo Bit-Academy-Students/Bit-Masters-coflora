@@ -1,5 +1,4 @@
 @import "tailwindcss";
-<<<<<<< HEAD
 
 @font-face {
   font-family: 'Roboto';
@@ -72,7 +71,7 @@
 
 .card-bg {
     background: linear-gradient(to bottom, #E8DCC9C4, #f1f1f1);
-    transition: background 0.3s ease, transform 0.2s ease;
+    transition: 0.3s ease, transform 0.2s ease;
 }
 
 .card-bg:hover {
@@ -82,5 +81,3 @@
 .card-border {
     border: 2px #ccc solid;
 }
-=======
->>>>>>> About

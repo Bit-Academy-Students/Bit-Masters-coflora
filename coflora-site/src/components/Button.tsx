@@ -3,7 +3,7 @@ import type { ButtonProps } from "../types";
 function Button({ href, classes, text }: ButtonProps) {
     return (
         <a href={href} className={`${classes}`}>
-            <button className="group inline-flex relative justify-center items-center bg-gray-800 py-1 pr-14 pl-6 rounded-full h-[calc(48px+8px)] font-medium text-neutral-50 hover:cursor-pointer">
+            <button className="group inline-flex relative justify-center items-center bg-gray-800 py-1 pr-14 pl-6 rounded-full h-14 font-medium text-neutral-50 hover:cursor-pointer">
                 <span className="z-10 pr-2">{text}</span>
                 <div className="inline-flex right-1 absolute justify-end items-center bg-gray-700 rounded-full w-12 group-hover:w-[calc(100%-8px)] h-12 transition-[width]">
                     <div className="flex justify-center items-center mr-3.5">
