@@ -17,7 +17,7 @@ export type ButtonProps = {
     href?: string;
     text: string;
     buttonClasses?: string;
-    height: string;
+    height?: string;
 };
 
 export type ProductAudience = "designer" | "contractor" | "both";
