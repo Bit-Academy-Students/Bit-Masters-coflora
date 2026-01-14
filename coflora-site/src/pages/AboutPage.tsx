@@ -1,15 +1,17 @@
 import { img2 } from "../assets/images/index";
 import { img3 } from "../assets/images/index";
+import { eco } from "../assets/images/index";
+import { trees } from "../assets/images/index";
 
-export default function About() {
+export default function AboutPage() {
     return (
         <>
-            <div className="relative flex flex-wrap w-full">
-                <div className="absolute flex flex-wrap justify-center gap-10 p-10 w-[50vw]">
+            <div className="relative flex flex-wrap justify-center w-full">
+                <div className="flex flex-wrap justify-center gap-10 p-10 w-[50vw]">
                     <div className="flex flex-col gap-7">
                         <h2 className="text-2xl">Who and Why</h2>
                         <p>
-                            WHO? We are a team of like minded nature & art
+                            We are a team of like minded nature & art
                             appreciators, that united to offer unique products
                             to the world. We have expertise in Environmental
                             Sciences, Sustainability, Climatology as well as
@@ -22,13 +24,13 @@ export default function About() {
                     </div>
                     <div className="flex flex-wrap rounded-full">
                         <img
-                            src="/wood.webp"
+                            src={eco}
                             className="w-[100px] h-[100px]"
                             style={{ clipPath: "circle()" }}
                             alt="wood"
                         />
                         <img
-                            src="/wall.webp"
+                            src={trees}
                             className="w-[200px] h-[200px]"
                             style={{ clipPath: "circle()" }}
                             alt="phone"
