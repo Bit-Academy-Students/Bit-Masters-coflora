@@ -201,12 +201,14 @@ function ProductDetailpage() {
                                 text="Download Catalog"
                                 buttonClasses="sm:h-[32px] h-[48px] min-w-[220px]"
                                 height="sm:h-auto h-12"
+                                href={product.downloads?.catalog}
                             />
 
                             <Button
                                 text="Download Specsheet"
                                 buttonClasses="sm:h-[32px] h-[48px] min-w-[220px]"
                                 height="sm:h-auto h-12"
+                                href={product.downloads?.specsheet}
                             />
                         </div>
                     </div>

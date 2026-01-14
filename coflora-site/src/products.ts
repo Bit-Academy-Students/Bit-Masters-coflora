@@ -25,8 +25,11 @@ export const PRODUCTS: Product[] = [
             `${corkCoatingImages.coating4}`,
             `${corkCoatingImages.coating5}`,
         ],
+        downloads: {
+            catalog: "/cork-coating-catalog.pdf",
+            specsheet: "/cork-coating-info-sheet.pdf",
+        },
 
-        /* 1. SIMPLE SPECS*/
         specs: {
             thickness: {
                 label: "Typical applied thickness",
@@ -43,7 +46,6 @@ export const PRODUCTS: Product[] = [
             curing: { label: "Curing time", value: "24–72", unit: "hours" },
         },
 
-        /* 2. FULL EXPANDED TECHNICAL SPECS */
         technicalSpecs: [
             {
                 category: "Physical Properties",
@@ -137,8 +139,6 @@ export const PRODUCTS: Product[] = [
             },
         ],
 
-        /* 3. APPLICATIONS*/
-
         applications: [
             {
                 title: "Interior Walls",
@@ -171,8 +171,6 @@ export const PRODUCTS: Product[] = [
                     "Spray-on cork texture is commonly used on MDF or plywood decorative elements.",
             },
         ],
-
-        /* 4. INSTALLATION*/
 
         installation: {
             phases: [
@@ -214,8 +212,6 @@ export const PRODUCTS: Product[] = [
             ],
         },
 
-        /* 5. FAQ*/
-
         faq: [
             {
                 question: "Can cork coating be used in bathrooms?",
@@ -246,8 +242,6 @@ export const PRODUCTS: Product[] = [
                 answer: "0.5–2.0 mm depending on acoustic/thermal needs. Most interiors use 1.0 mm.",
             },
         ],
-
-        /* 6. KEY BENEFITS*/
 
         keyBenefits: [
             {
@@ -296,6 +290,11 @@ export const PRODUCTS: Product[] = [
             `${corkWallpaperImages.wallpaper2}`,
             `${corkWallpaperImages.wallpaper3}`,
         ],
+
+        downloads: {
+            catalog: "/cork-wallpaper-catalog.pdf",
+            specsheet: "/cork-wallpaper-info-sheet.pdf",
+        },
 
         specs: {
             thickness: {
@@ -431,6 +430,10 @@ export const PRODUCTS: Product[] = [
             `${corkLeatherImages.corkleather2}`,
             `${corkLeatherImages.corkleather3}`,
         ],
+        downloads: {
+            catalog: "/cork-leather-catalog.pdf",
+            specsheet: "/cork-leather-info-sheet.pdf",
+        },
 
         specs: {
             thickness: {
@@ -548,6 +551,10 @@ export const PRODUCTS: Product[] = [
             `${corkPanelImages.corkpanel3}`,
             `${corkPanelImages.corkpanel4}`,
         ],
+        downloads: {
+            catalog: "/cork-panels-catalog.pdf",
+            specsheet: "/cork-panels-info-sheet.pdf",
+        },
 
         specs: {
             thickness: {
@@ -734,6 +741,10 @@ export const PRODUCTS: Product[] = [
             `${corkUnitImages.corkunit3}`,
             `${corkUnitImages.corkunit4}`,
         ],
+        downloads: {
+            catalog: "/cork-units-catalog.pdf",
+            specsheet: "/cork-units-info-sheet.pdf",
+        },
 
         specs: {
             system: { label: "System type", value: "Modular units" },

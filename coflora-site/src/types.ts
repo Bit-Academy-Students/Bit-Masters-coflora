@@ -96,11 +96,9 @@ export interface Product {
     packaging?: { unit: string; quantity: number; note?: string }[];
     leadTime?: string;
     downloads?: {
-        title: string;
-        url: string;
-        size?: string;
-        gated?: boolean;
-    }[];
+        catalog: string;
+        specsheet: string;
+    };
     related?: string[]; // related product ids
     price?: { currency: string; range?: string }; // optional
     link: string; // product page url
