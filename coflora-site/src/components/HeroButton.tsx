@@ -1,4 +1,5 @@
 import { scrollToElement } from "../utilities";
+import type { HeroButtonProps } from "../types";
 
 function HeroButton({ scrollTo, text }: HeroButtonProps) {
     return (

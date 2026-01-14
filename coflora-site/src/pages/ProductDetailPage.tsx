@@ -142,7 +142,7 @@ function ProductDetailpage() {
         <div className="flex flex-col justify-center items-center px-4 sm:px-8 xl:px-12 py-12 w-full h-auto">
             <div className="flex xl:flex-row flex-col gap-8 mb-12 w-full text-center">
                 <ProductCarousel
-                    products={product.images}
+                    products={product.images ?? []}
                     delay={3000}
                     outerDivClass="xl:h-[60vh] xl:w-[60%] w-full"
                     slidesPerView={1}

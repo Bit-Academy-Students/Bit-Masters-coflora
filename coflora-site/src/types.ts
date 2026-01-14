@@ -129,7 +129,7 @@ export type ProductCardProps = {
 };
 
 export type ProductCarouselProps = {
-    products: Product[] | string[];
+    products: string[] | Product[];
     delay: number;
     outerDivClass: string;
     slidesPerView: number;
