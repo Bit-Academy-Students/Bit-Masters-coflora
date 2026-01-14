@@ -1,40 +1,44 @@
 import "swiper/css/bundle";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination, Mousewheel } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 import ProductCard from "./ProductCard";
 import type { ProductCarouselProps } from "../types";
+import type { SwiperOptions } from "swiper/types";
 
-function ProductCarousel({ products, delay }: ProductCarouselProps) {
+function ProductCarousel({
+    products,
+    delay,
+    outerDivClass,
+    slidesPerView,
+    rounded,
+    breakpoints,
+}: ProductCarouselProps & { breakpoints?: SwiperOptions["breakpoints"] }) {
     return (
         <>
-            <div className="relative mb-30 w-1/2 h-[75vh]">
+            <div className={`relative ${rounded} ${outerDivClass}`}>
                 <Swiper
                     direction={"horizontal"}
-                    slidesPerView={1}
-                    spaceBetween={20}
+                    slidesPerView={slidesPerView}
+                    breakpoints={breakpoints}
+                    spaceBetween={40}
                     loop={true}
                     speed={1250}
                     autoplay={{
                         delay: delay,
-                        disableOnInteraction: true,
+                        disableOnInteraction: false,
+                        pauseOnMouseEnter: true,
                     }}
                     mousewheel={true}
-                    pagination={true}
-                    modules={[Autoplay, Pagination, Mousewheel]}
-                    className="z-0 w-full h-full mySwiper"
+                    pagination={false}
+                    modules={[Autoplay, Pagination]}
+                    className={`z-0 w-full h-full mySwiper ${rounded}`}
                 >
-                    {products.map((product) => (
-                        <SwiperSlide>
-                            <ProductCard
-                                key={product.id}
-                                link={product.link}
-                                img={product.img}
-                                title={product.title}
-                                description={product.description}
-                                chips={product.chips}
-                                outerDivClass="h-full"
-                                imgClass="h-[50vh] object-scale-down"
-                                linkClass="pt-6"
+                    {products.map((img, idx) => (
+                        <SwiperSlide key={idx}>
+                            <img
+                                src={img}
+                                className={`w-full lg:h-full aspect-[16/9] object-cover ${rounded}`}
+                                alt={`Product image ${idx + 1}`}
                             />
                         </SwiperSlide>
                     ))}

@@ -1,4 +1,9 @@
-// HOMEPAGE
+// HOMEPAGE\\
+
+// Hero
+
+export const HeroTitle =
+    "Sustainable Cork Materials for Architecture, Design & Product Making.";
 
 // Text
 export const HomePageBuilderText =

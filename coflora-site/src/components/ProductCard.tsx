@@ -14,7 +14,7 @@ function ProductCard({
 }: ProductCardProps) {
     return (
         <div
-            className={`flex flex-col gap-12 mx-auto pt-12 w-full ${outerDivClass}`}
+            className={`flex flex-col gap-12 mx-auto rounded-xl w-full ${outerDivClass}`}
         >
             <Link
                 to={link}
@@ -23,13 +23,13 @@ function ProductCard({
                 <img
                     src={img}
                     alt="coating"
-                    className={`w-full h-64 object-cover ${imgClass}`}
+                    className={`w-full aspect-[4/3] object-cover ${imgClass}`}
                 />
                 <div className="flex flex-col justify-center px-6 pt-6 pb-2 w-full h-full">
                     <h2 className="mb-4 font-bold text-3xl">{title}</h2>
                     <p className="mb-6 text-gray-700">{description}</p>
 
-                    <div id="chips" className="flex flex-wraps gap-2">
+                    <div id="chips" className="flex flex-wrap gap-2">
                         {chips.map((chip, index) => (
                             <Chip
                                 key={index}

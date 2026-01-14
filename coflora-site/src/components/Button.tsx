@@ -1,12 +1,16 @@
 import type { ButtonProps } from "../types";
 
-function Button({ href, classes, text }: ButtonProps) {
+function Button({ href, buttonClasses, text, height }: ButtonProps) {
     return (
-        <a href={href} className={`${classes}`}>
-            <button className="group inline-flex relative justify-center items-center bg-gray-800 py-1 pr-14 pl-6 rounded-full h-[calc(48px+8px)] font-medium text-neutral-50 hover:cursor-pointer">
+        <a href={href}>
+            <button
+                className={`${buttonClasses} group inline-flex relative justify-center items-center bg-gray-800 py-1 pr-14 pl-6 rounded-full font-medium text-neutral-50 hover:cursor-pointer`}
+            >
                 <span className="z-10 pr-2">{text}</span>
-                <div className="inline-flex right-1 absolute justify-end items-center bg-gray-700 rounded-full w-12 group-hover:w-[calc(100%-8px)] h-12 transition-[width]">
-                    <div className="flex justify-center items-center mr-3.5">
+                <div className="inline-flex right-1 absolute justify-end items-center bg-gray-700 rounded-full w-12 group-hover:w-[calc(100%-8px)] transition-[width]">
+                    <div
+                        className={`flex justify-center items-center mr-3.5 ${height}`}
+                    >
                         <svg
                             width="15"
                             height="15"
