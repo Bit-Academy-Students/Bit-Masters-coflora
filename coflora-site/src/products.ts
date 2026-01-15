@@ -289,6 +289,9 @@ export const PRODUCTS: Product[] = [
             `${corkWallpaperImages.wallpaper1}`,
             `${corkWallpaperImages.wallpaper2}`,
             `${corkWallpaperImages.wallpaper3}`,
+            `${corkWallpaperImages.wallpaper4}`,
+            `${corkWallpaperImages.wallpaper5}`,
+            `${corkWallpaperImages.wallpaper6}`,
         ],
 
         downloads: {

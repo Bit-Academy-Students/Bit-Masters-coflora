@@ -20,3 +20,4 @@ export { default as wallpaper } from "./wallpaper.jpg";
 export { default as leather } from "./leather.jpg";
 export { default as panels } from "./panels.jpg";
 export { default as units } from "./units.jpg";
+export { default as trees0 } from "./trees0.jpg";

@@ -23,12 +23,12 @@ function HomePageCard({ img, name, text }: HomePageCardProps) {
                         className="w-full md:w-1/2 md:h-full object-cover aspect-[4/3]"
                     />
                     <div className="flex flex-col justify-center p-4 md:p-12 w-full md:w-1/2 h-full">
-                        <h2 className="mb-4 font-bold text-3xl">For {name}</h2>
+                        <h2 className="mb-4 font-bold text-3xl">{name}</h2>
                         <p className="mb-6 text-gray-700">{text}</p>
 
                         <Button
                             href={"/products"}
-                            text={`Go to ${name}`}
+                            text={`View Products`}
                             buttonClasses="h-[56px]"
                             height={"h-12"}
                         />

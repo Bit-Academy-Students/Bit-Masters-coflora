@@ -7,10 +7,13 @@ export const HeroTitle =
 
 // Text
 export const HomePageBuilderText =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
+    "Performance-driven cork solutions for construction, renovation, and technical applications. Find reliable products that meet project requirements with confidence.";
 
 export const HomePageDesignerText =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
+    "Materials that balance aesthetics, performance, and sustainability. Explore cork solutions designed to support creative freedom across interior and architectural projects.";
+
+export const HomePageAllProductsText =
+    "Explore the complete collection of cork materials, surfaces, and systems. Discover solutions for architecture, interiors, and everyday spaces.";
 
 // Features
 

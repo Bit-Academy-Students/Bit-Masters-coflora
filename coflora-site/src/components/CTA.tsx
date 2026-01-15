@@ -16,6 +16,7 @@ function CallToAction() {
                 href={"/about"}
                 text={"Learn more"}
                 buttonClasses="h-[56px]"
+                height="h-12"
             />
         </div>
     );

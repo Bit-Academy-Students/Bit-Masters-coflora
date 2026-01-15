@@ -3,8 +3,12 @@ import Carousel from "../components/Carousel";
 import HomePageCard from "../components/HomePageCard";
 import Explainer from "../components/Explainer";
 import CallToAction from "../components/CTA";
-import { builder, designer, people } from "../assets/images";
-import { HomePageBuilderText, HomePageDesignerText } from "../constants";
+import { builder, designer, trees0 } from "../assets/images";
+import {
+    HomePageBuilderText,
+    HomePageDesignerText,
+    HomePageAllProductsText,
+} from "../constants";
 import Features from "../components/Features";
 import { img, img1, img2, img3, img4 } from "../assets/images";
 import { HeroTitle } from "../constants";
@@ -34,6 +38,11 @@ function HomePage() {
                 className="flex flex-row items-stretch gap-12 grid grid-cols-1 xl:grid-cols-3 px-12"
             >
                 <HomePageCard
+                    name={"All Products"}
+                    img={trees0}
+                    text={HomePageAllProductsText}
+                />
+                <HomePageCard
                     name={"Contractors"}
                     img={builder}
                     text={HomePageBuilderText}
@@ -42,11 +51,6 @@ function HomePage() {
                     name={"Designers"}
                     img={designer}
                     text={HomePageDesignerText}
-                />
-                <HomePageCard
-                    name={"Everyone"}
-                    img={people}
-                    text={HomePageBuilderText}
                 />
             </div>
             <Features />

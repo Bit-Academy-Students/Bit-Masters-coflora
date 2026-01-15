@@ -58,8 +58,8 @@ function Header() {
         setIsOpen(!isOpen);
     };
 
-    const corkAccent =
-        "bg-yellow-700 hover:bg-yellow-800 text-white transition duration-300 shadow-md";
+    // const corkAccent =
+    //     "bg-yellow-700 hover:bg-yellow-800 text-white transition duration-300 shadow-md";
 
     return (
         <>
@@ -138,13 +138,13 @@ function Header() {
                     </Link>
 
                     <div className="bg-gray-300 my-4 w-20 h-0.5"></div>
-                    <Link
+                    {/* <Link
                         to="/sample-aanvraag"
                         className={`px-6 py-3 rounded-xl text-lg font-bold ${corkAccent}`}
                         onClick={toggleMenu}
                     >
                         Request a Sample
-                    </Link>
+                    </Link> */}
 
                     <div className="bg-gray-300 my-4 w-20 h-0.5"></div>
 

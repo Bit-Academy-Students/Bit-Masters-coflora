@@ -2,22 +2,20 @@ import { PRODUCTS } from "../products";
 import ProductCard from "../components/ProductCard";
 import ProductCarousel from "../components/ProductCarousel";
 import Button from "../components/Button";
+import { Link } from "react-router-dom";
+import { home0, home1, home2, home3, home4 } from "../assets/images/projects";
 import {
-    home0,
-    home1,
-    home2,
-    home3,
-    home4,
-    wallpaper0,
-    wallpaper1,
-    wallpaper2,
-} from "../assets/images/projects";
+    wallpaper3,
+    wallpaper4,
+    wallpaper5,
+    wallpaper6,
+} from "../assets/images/products/cork-wallpaper";
 import { useSearchParams } from "react-router-dom";
 import { useMemo } from "react";
 
 function ProductsPage() {
     const homes = [home0, home1, home2, home3, home4];
-    const wallpapers = [wallpaper0, wallpaper1, wallpaper2];
+    const wallpapers = [wallpaper6, wallpaper5, wallpaper3, wallpaper4];
 
     const [searchParams, setSearchParams] = useSearchParams();
     const filter = searchParams.get("filter") || "all";
@@ -48,6 +46,16 @@ function ProductsPage() {
             <div className="flex gap-4 bg-white/30 backdrop-blur-md mb-24 p-4 border border-white/40 rounded-xl">
                 <button
                     className={`px-4 py-2 rounded ${
+                        filter === "all"
+                            ? "bg-gray-800 text-white"
+                            : "bg-gray-200"
+                    }`}
+                    onClick={() => setSearchParams({ filter: "all" })}
+                >
+                    All Products
+                </button>
+                <button
+                    className={`px-4 py-2 rounded ${
                         filter === "contractor"
                             ? "bg-gray-800 text-white"
                             : "bg-gray-200"
@@ -65,16 +73,6 @@ function ProductsPage() {
                     onClick={() => setSearchParams({ filter: "designer" })}
                 >
                     Designer
-                </button>
-                <button
-                    className={`px-4 py-2 rounded ${
-                        filter === "all"
-                            ? "bg-gray-800 text-white"
-                            : "bg-gray-200"
-                    }`}
-                    onClick={() => setSearchParams({ filter: "all" })}
-                >
-                    Everyone
                 </button>
             </div>
 
@@ -104,12 +102,13 @@ function ProductsPage() {
                             }}
                         />
                     </div>
-                    <Button
-                        href={"/products/cork-coating"}
-                        text={`View Product`}
-                        buttonClasses="h-[48px] mt-8 mb-24"
-                        height={"h-12"}
-                    />
+                    <Link to="/products/cork-coating">
+                        <Button
+                            text={`View Product`}
+                            buttonClasses="h-[48px] mt-8 mb-24"
+                            height={"h-12"}
+                        />
+                    </Link>
                 </>
             )}
 
@@ -130,7 +129,7 @@ function ProductsPage() {
                         <ProductCarousel
                             outerDivClass="h-[45vh] w-full"
                             products={wallpapers}
-                            delay={3000}
+                            delay={5000}
                             slidesPerView={1}
                             breakpoints={{
                                 640: { slidesPerView: 1 },
@@ -139,12 +138,13 @@ function ProductsPage() {
                             }}
                         />
                     </div>
-                    <Button
-                        href={"/products/cork-wallpaper"}
-                        text={`View Product`}
-                        buttonClasses="h-[48px] mt-8 mb-24"
-                        height={"h-12"}
-                    />
+                    <Link to="/products/cork-wallpaper">
+                        <Button
+                            text={`View Product`}
+                            buttonClasses="h-[48px] mt-8 mb-24"
+                            height={"h-12"}
+                        />
+                    </Link>
                 </>
             )}
 
