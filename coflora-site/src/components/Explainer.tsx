@@ -1,6 +1,6 @@
 function Explainer() {
     return (
-        <div className="flex flex-col justify-center items-center px-16 lg:px-0 py-8 lg:py-16 w-full h-auto text-center card-bg">
+        <div className="flex flex-col justify-center items-center mb-12 lg:mb-0 px-16 lg:px-0 py-8 lg:py-16 w-full h-auto text-center card-bg">
             <h2 className="drop-shadow-lg mb-6 font-montreal font-semibold text-6xl">
                 WHY CORK?
             </h2>

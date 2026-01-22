@@ -5,7 +5,7 @@ function Footer() {
         <footer className="flex min-[425px]:flex-row min-[320px]:flex-col flex-wrap justify-evenly items-center min-[425px]:w-full h-auto">
             <Link
                 to="/"
-                className="w-[270px] min-[425px]:w-[50vw] min-[435px]:w-[150px] min-[768px]:w-[280px] object-contain aspect-video"
+                className="w-[270px] min-[425px]:w-[50vw] min-[435px]:w-[150px] min-[768px]:w-[280px] object-contain aspect-[3/1] sm:aspect-video"
             >
                 <img src="https://coflora.org/wp-content/uploads/2022/08/coflora_original_black.png"></img>
             </Link>

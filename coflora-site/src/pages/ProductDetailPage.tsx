@@ -139,7 +139,7 @@ function ProductDetailpage() {
     }
 
     return (
-        <div className="flex flex-col justify-center items-center px-4 sm:px-8 xl:px-12 py-12 w-full h-auto">
+        <div className="flex flex-col justify-center items-center px-8 sm:px-8 xl:px-12 py-8 sm:py-8 xl:py-12 w-full h-auto">
             <div className="flex xl:flex-row flex-col gap-8 mb-12 w-full text-center">
                 <ProductCarousel
                     products={product.images ?? []}
@@ -190,7 +190,7 @@ function ProductDetailpage() {
                                                     {spec.value} {spec.unit}
                                                 </span>
                                             </div>
-                                        )
+                                        ),
                                     )}
                                 </>
                             )}
@@ -215,7 +215,7 @@ function ProductDetailpage() {
                 </div>
             </div>
 
-            <div className="mb-24 w-full h-full">
+            <div className="mb-8 sm:mb-24 w-full h-full">
                 {visibleTabs.length > 0 && (
                     <div className="bg-white shadow-xl border rounded-xl w-full h-full overflow-hidden">
                         <Box sx={{ width: "100%" }}>

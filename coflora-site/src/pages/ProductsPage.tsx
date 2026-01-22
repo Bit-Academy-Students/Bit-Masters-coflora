@@ -42,8 +42,8 @@ function ProductsPage() {
     );
 
     return (
-        <div className="flex flex-col justify-center items-center pt-8 pb-32 w-full h-auto">
-            <div className="flex gap-4 bg-white/30 backdrop-blur-md mb-24 p-4 border border-white/40 rounded-xl">
+        <div className="flex flex-col justify-center items-center pt-8 pb-8 md:pb-16 lg:pb-32 w-full h-auto">
+            <div className="flex gap-4 bg-white/30 backdrop-blur-md mb-4 md:mb-8 lg:mb-16 p-4 border border-white/40 rounded-xl">
                 <button
                     className={`px-4 py-2 rounded ${
                         filter === "all"
@@ -91,21 +91,21 @@ function ProductsPage() {
                     </header>
                     <div className="w-full text-center curved-carousel">
                         <ProductCarousel
-                            outerDivClass="h-[45vh] w-full"
+                            outerDivClass="sm:h-[35vh] md:h-[35vh] lg:h-[45vh] w-full"
                             products={homes}
                             delay={3000}
                             slidesPerView={1}
                             breakpoints={{
-                                640: { slidesPerView: 1 },
-                                768: { slidesPerView: 2 },
-                                1024: { slidesPerView: 3 },
+                                768: { slidesPerView: 1 },
+                                1024: { slidesPerView: 2 },
+                                1280: { slidesPerView: 3 },
                             }}
                         />
                     </div>
                     <Link to="/products/cork-coating">
                         <Button
                             text={`View Product`}
-                            buttonClasses="h-[48px] mt-8 mb-24"
+                            buttonClasses="h-[48px] mt-8 mb-8 md:mb-8 lg:mb-16"
                             height={"h-12"}
                         />
                     </Link>
@@ -127,21 +127,21 @@ function ProductsPage() {
                     </header>
                     <div className="w-full text-center curved-carousel">
                         <ProductCarousel
-                            outerDivClass="h-[45vh] w-full"
+                            outerDivClass="sm:h-[35vh] md:h-[35vh] lg:h-[45vh] w-full"
                             products={wallpapers}
                             delay={5000}
                             slidesPerView={1}
                             breakpoints={{
-                                640: { slidesPerView: 1 },
-                                768: { slidesPerView: 2 },
-                                1024: { slidesPerView: 3 },
+                                768: { slidesPerView: 1 },
+                                1024: { slidesPerView: 2 },
+                                1280: { slidesPerView: 3 },
                             }}
                         />
                     </div>
                     <Link to="/products/cork-wallpaper">
                         <Button
                             text={`View Product`}
-                            buttonClasses="h-[48px] mt-8 mb-24"
+                            buttonClasses="h-[48px] mt-8 mb-4 md:mb-8 lg:mb-16"
                             height={"h-12"}
                         />
                     </Link>

@@ -123,7 +123,7 @@ function Header() {
                         Home
                     </Link>
                     <Link
-                        to="/producten"
+                        to="/products"
                         className="p-7 text-gray-800 hover:text-yellow-700 text-3xl transition duration-300"
                         onClick={toggleMenu}
                     >
@@ -146,7 +146,7 @@ function Header() {
                         Request a Sample
                     </Link> */}
 
-                    <div className="bg-gray-300 my-4 w-20 h-0.5"></div>
+                    {/* <div className="bg-gray-300 my-4 w-20 h-0.5"></div> */}
 
                     <div className="mt-10">
                         <h3 className="mb-4 font-semibold text-gray-700 text-lg text-center">

@@ -42,19 +42,15 @@ function TabContent({
 
     return (
         <div className="bg-gray-50 p-6 border rounded-xl">
-            {/* Header */}
             <div className="flex items-center mb-6">
                 <div className="bg-gray-200 mr-3 p-2 rounded-full">{icon}</div>
                 <h3 className="font-bold text-gray-800 text-xl">{title}</h3>
             </div>
 
-            {/* Unified content layout */}
             <div className={getContainerLayout()}>
                 {items.map((item, index) => (
                     <div key={index} className={getCardClasses()}>
-                        {/* Title/Header section */}
                         <div className="flex items-center mb-3">
-                            {/* Conditional prefix based on layout */}
                             {layout === "steps" && (
                                 <div className="flex justify-center items-center bg-gray-200 mr-3 rounded-full w-6 h-6 font-bold text-gray-800 text-sm">
                                     {index + 1}
@@ -66,21 +62,19 @@ function TabContent({
                                 </span>
                             )}
 
-                            {/* Title */}
                             <h4
                                 className={`font-bold text-gray-800 text-base ${itemClasses}`}
                             >
                                 {layout === "grid"
                                     ? item.title
                                     : layout === "steps"
-                                    ? item.title
-                                    : layout === "faq"
-                                    ? item.question
-                                    : item.title}
+                                      ? item.title
+                                      : layout === "faq"
+                                        ? item.question
+                                        : item.title}
                             </h4>
                         </div>
 
-                        {/* Content section */}
                         <div className={layout === "faq" ? "ml-7" : ""}>
                             {layout === "grid" && (
                                 <p className="text-gray-600 text-sm leading-relaxed">
@@ -103,7 +97,7 @@ function TabContent({
                                                     {step}
                                                 </span>
                                             </li>
-                                        )
+                                        ),
                                     )}
                                 </ul>
                             )}

@@ -14,7 +14,7 @@ function HomePageCard({ img, name, text }: HomePageCardProps) {
         return (
             <Link
                 to={`/products?filter=${filter}`}
-                className="flex flex-col gap-12 mx-auto mt-12"
+                className="flex flex-col gap-12 mx-auto lg:mt-12"
             >
                 <div className="flex md:flex-row flex-col items-center shadow-lg card-border rounded-xl h-full overflow-hidden card-bg">
                     <img

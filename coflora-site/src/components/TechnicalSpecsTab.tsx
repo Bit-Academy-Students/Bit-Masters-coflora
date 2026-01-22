@@ -1,4 +1,3 @@
-// TechnicalSpecsTab.tsx
 import React from "react";
 
 interface TechnicalSpec {
